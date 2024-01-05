@@ -22,3 +22,4 @@ If your changes include visual updates, it would be helpful to provide screensho
 - [ ] I have made corresponding changes to the codebase
 - [ ] My changes generate no new warnings or errors
 - [ ] The title of my pull request is clear and descriptive
+
