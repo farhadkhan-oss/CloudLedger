@@ -54,3 +54,4 @@ Please follow this commit format for your commit messages:
 If you have any questions, feel free to reach out by creating an issue.
 
 Thank you for contributing to [idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) dont forget to give us a :star: !
+
