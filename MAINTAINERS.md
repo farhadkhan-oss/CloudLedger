@@ -18,3 +18,4 @@ UI/UX design, Figma, Sketch, design systems & component libraries, visual and in
 
 - **Front-End:** React, Next.js, TypeScript, Redux, Redux Thunk, React Query, Tailwind CSS, Ant Design, Storybook, React Testing Library, Jest, GraphQL/Apollo
 - **Backend & Infra:** Node.js, Express.js, REST APIs, GraphQL, MongoDB, PostgreSQL, Microsoft SQL, Docker
+
