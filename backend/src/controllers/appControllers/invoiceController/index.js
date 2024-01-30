@@ -18,3 +18,4 @@ methods.list = paginatedList;
 methods.read = read;
 
 module.exports = methods;
+
