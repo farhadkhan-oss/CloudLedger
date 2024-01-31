@@ -65,3 +65,4 @@ const paginatedList = async (req, res) => {
 };
 
 module.exports = paginatedList;
+
