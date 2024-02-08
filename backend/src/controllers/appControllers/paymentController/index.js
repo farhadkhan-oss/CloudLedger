@@ -14,3 +14,4 @@ methods.delete = remove;
 methods.summary = summary;
 
 module.exports = methods;
+
