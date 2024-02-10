@@ -7,3 +7,4 @@ const mail = async (req, res) => {
 };
 
 module.exports = mail;
+
