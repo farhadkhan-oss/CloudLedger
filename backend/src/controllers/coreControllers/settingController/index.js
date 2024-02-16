@@ -22,3 +22,4 @@ const settingMethods = {
 };
 
 module.exports = settingMethods;
+
