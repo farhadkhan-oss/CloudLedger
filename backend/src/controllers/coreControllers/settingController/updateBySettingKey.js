@@ -47,3 +47,4 @@ const updateBySettingKey = async (req, res) => {
 };
 
 module.exports = updateBySettingKey;
+
