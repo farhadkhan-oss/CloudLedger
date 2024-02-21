@@ -56,3 +56,4 @@ const updateManySetting = async (req, res) => {
 };
 
 module.exports = updateManySetting;
+
