@@ -99,3 +99,4 @@ const setup = async (req, res) => {
 };
 
 module.exports = setup;
+
