@@ -13,3 +13,4 @@ function checkAndCorrectURL(url) {
 }
 
 module.exports = checkAndCorrectURL;
+
