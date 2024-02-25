@@ -77,3 +77,4 @@ const forgetPassword = async (req, res, { userModel }) => {
 };
 
 module.exports = forgetPassword;
+
