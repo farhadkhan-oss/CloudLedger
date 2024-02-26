@@ -35,3 +35,4 @@ const createAuthMiddleware = (userModel) => {
 };
 
 module.exports = createAuthMiddleware;
+
