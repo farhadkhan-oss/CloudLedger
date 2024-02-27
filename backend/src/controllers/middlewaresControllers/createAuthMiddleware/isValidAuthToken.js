@@ -69,3 +69,4 @@ const isValidAuthToken = async (req, res, next, { userModel, jwtSecret = 'JWT_SE
 };
 
 module.exports = isValidAuthToken;
+
