@@ -33,3 +33,4 @@ const logout = async (req, res, { userModel }) => {
 };
 
 module.exports = logout;
+
