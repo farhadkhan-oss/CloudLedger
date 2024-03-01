@@ -111,3 +111,4 @@ const resetPassword = async (req, res, { userModel }) => {
 };
 
 module.exports = resetPassword;
+
