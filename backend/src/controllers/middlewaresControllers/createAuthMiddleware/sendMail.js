@@ -24,3 +24,4 @@ const sendMail = async ({
 };
 
 module.exports = sendMail;
+
