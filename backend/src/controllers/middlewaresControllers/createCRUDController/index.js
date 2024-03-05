@@ -33,3 +33,4 @@ const createCRUDController = (modelName) => {
 };
 
 module.exports = createCRUDController;
+
