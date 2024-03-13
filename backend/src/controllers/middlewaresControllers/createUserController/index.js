@@ -17,3 +17,4 @@ const createUserController = (userModel) => {
 };
 
 module.exports = createUserController;
+
