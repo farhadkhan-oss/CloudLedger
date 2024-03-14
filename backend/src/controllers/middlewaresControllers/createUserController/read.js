@@ -36,3 +36,4 @@ const read = async (userModel, req, res) => {
 };
 
 module.exports = read;
+
