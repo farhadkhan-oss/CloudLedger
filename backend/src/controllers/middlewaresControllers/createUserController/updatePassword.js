@@ -60,3 +60,4 @@ const updatePassword = async (userModel, req, res) => {
 };
 
 module.exports = updatePassword;
+
