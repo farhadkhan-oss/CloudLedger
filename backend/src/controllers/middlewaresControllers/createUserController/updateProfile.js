@@ -63,3 +63,4 @@ const updateProfile = async (userModel, req, res) => {
 };
 
 module.exports = updateProfile;
+
