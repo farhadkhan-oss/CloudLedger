@@ -63,3 +63,4 @@ const updateProfilePassword = async (userModel, req, res) => {
 };
 
 module.exports = updateProfilePassword;
+
