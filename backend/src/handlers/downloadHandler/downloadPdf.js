@@ -72,3 +72,4 @@ module.exports = downloadPdf = async (req, res, { directory, id }) => {
     }
   }
 };
+
