@@ -58,3 +58,4 @@ exports.calculate = {
     return currency(firstValue).divide(secondValue).value;
   },
 };
+
