@@ -450,3 +450,4 @@ module.exports = {
   offers: 'Offers',
   proforma_invoices: 'quote',
 };
+
