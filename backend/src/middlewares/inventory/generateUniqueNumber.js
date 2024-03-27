@@ -9,3 +9,4 @@ function generateUniqueNumber(uniqueId, numberLength = 13) {
 }
 
 module.exports = generateUniqueNumber;
+
