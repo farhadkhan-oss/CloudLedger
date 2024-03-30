@@ -32,3 +32,4 @@ const increaseBySettingKey = async ({ settingKey }) => {
 };
 
 module.exports = increaseBySettingKey;
+
