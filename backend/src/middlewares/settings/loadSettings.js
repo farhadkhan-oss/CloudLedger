@@ -10,3 +10,4 @@ const loadSettings = async () => {
 };
 
 module.exports = loadSettings;
+
