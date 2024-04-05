@@ -24,3 +24,4 @@ const readBySettingKey = async ({ settingKey }) => {
 };
 
 module.exports = readBySettingKey;
+
