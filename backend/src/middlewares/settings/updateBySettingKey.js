@@ -31,3 +31,4 @@ const updateBySettingKey = async ({ settingKey, settingValue }) => {
 };
 
 module.exports = updateBySettingKey;
+
