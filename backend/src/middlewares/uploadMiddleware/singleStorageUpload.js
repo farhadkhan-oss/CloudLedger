@@ -56,3 +56,4 @@ const singleStorageUpload = ({
 };
 
 module.exports = singleStorageUpload;
+
