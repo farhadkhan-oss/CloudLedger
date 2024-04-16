@@ -55,3 +55,4 @@ const paymentSchema = new mongoose.Schema({
 });
 paymentSchema.plugin(require('mongoose-autopopulate'));
 module.exports = mongoose.model('Payment', paymentSchema);
+
