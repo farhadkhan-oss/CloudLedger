@@ -47,3 +47,4 @@ for (const filePath of appModelsFiles) {
 }
 
 module.exports = { constrollersList, appModelsList, modelsFiles, entityList, routesList };
+
