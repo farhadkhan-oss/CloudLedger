@@ -50,3 +50,4 @@ router
   );
 router.route('/setting/updateManySetting').patch(catchErrors(settingController.updateManySetting));
 module.exports = router;
+
