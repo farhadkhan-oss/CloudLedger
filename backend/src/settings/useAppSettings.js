@@ -6,3 +6,4 @@ const useAppSettings = () => {
 };
 
 module.exports = useAppSettings;
+
