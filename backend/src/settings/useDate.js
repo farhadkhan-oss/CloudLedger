@@ -9,3 +9,4 @@ const useDate = ({ settings }) => {
 };
 
 module.exports = useDate;
+
