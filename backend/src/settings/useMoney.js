@@ -50,3 +50,4 @@ const useMoney = ({ settings }) => {
 };
 
 module.exports = useMoney;
+
