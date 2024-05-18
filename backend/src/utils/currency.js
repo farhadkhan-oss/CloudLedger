@@ -124,3 +124,4 @@ const currencyList = [
 exports.checkCurrency = (code) => {
   return currencyList.includes(code.toUpperCase());
 };
+
