@@ -12,3 +12,4 @@ exports.isPathInside = (childPath, parentPath) => {
       relation !== path.resolve(childPath)
   );
 };
+
