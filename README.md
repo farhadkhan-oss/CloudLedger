@@ -1,107 +1,483 @@
+# CloudLedger
+
 <div align="center">
-    <a href="https://www.idurarapp.com/">
-  <img src="https://avatars.githubusercontent.com/u/50052356?s=200&v=4" width="128px" />
-    </a>
-    <h1>Open Source ERP / CRM Accounting Invoice Quote</h1>
-    <p align="center">
-        <p>IDURAR ERP CRM | Simple To Use</p>
-    </p>
-    
 
-```
- Give a Star ⭐️ & Fork to this project ... Happy coding! 🤩`
-```
+<h1>☁️ CloudLedger</h1>
 
-IDURAR is Open Source ERP / CRM (Invoice / Quote / Accounting ) Based on Advanced Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
+<p>
+<strong>Open Source ERP & CRM Platform for Modern Business Operations</strong>
+</p>
+
+<p>
+Manage customers, products, sales, invoices, payments, quotes, inventory, and business operations from a single platform.
+</p>
 
 </div>
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+---
 
+## 🚀 Overview
 
+**CloudLedger** is a full-stack ERP and CRM platform designed to centralize essential business operations in one application.
 
-## Features :
+It provides tools for managing customers, products, sales, invoices, payments, quotations, inventory, and financial workflows through a modern web-based interface.
 
-Invoice Management
+The platform is built around a modular architecture using the **MERN stack**, with a React-based frontend, Node.js/Express backend, and MongoDB database.
 
-Payment Management
+### Core Technology
 
-Quote Management
+* **Frontend:** React.js
+* **UI Framework:** Ant Design
+* **State Management:** Redux
+* **Backend:** Node.js
+* **API Framework:** Express.js
+* **Database:** MongoDB
+* **Architecture:** MERN Stack
+* **API:** REST
+* **Language:** JavaScript
 
-Customer Management
+---
 
-Ant Design Framework(AntD) 🐜
+# ✨ Features
 
-Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) 👨‍💻
+## 👥 Customer Management
 
-### May i can use IDURAR for Commercial use :
+* Create and manage customers
+* Customer profiles
+* Contact information
+* Customer transaction history
+* Customer activity tracking
 
-- Yes You can use IDURAR for free for personal or Commercial use.
+## 🧾 Invoice Management
 
-## Our Sponsors
+* Create invoices
+* Update and manage invoices
+* Track invoice status
+* Customer invoice history
+* Invoice totals and calculations
+* Outstanding invoice tracking
 
-  <a href="https://m.do.co/c/4ead8370b905?ref=idurarapp.com">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
-  </a>
+## 💳 Payment Management
 
-#
+* Record payments
+* Track payment status
+* Payment history
+* Outstanding balances
+* Customer payment tracking
 
-<img width="1403" alt="Open Source ERP CRM" src="https://github.com/idurar/idurar-erp-crm/assets/136928179/a6712286-7ca6-4822-8902-fb7523533ee8">
+## 📋 Quote Management
 
-## Free Open Source ERP / CRM App
+* Create quotations
+* Manage quotation status
+* Customer quotation history
+* Convert quotations into invoices
+* Track quote lifecycle
 
-IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
+## 📦 Product & Inventory Management
 
+* Product management
+* Product categorization
+* Inventory tracking
+* Stock management
+* Product pricing
+* Inventory operations
 
-## Getting started
+## 💰 Accounting
 
-1.[Clone the repository](INSTALLATION-INSTRUCTIONS.md#step-1-clone-the-repository)
+* Revenue tracking
+* Invoice tracking
+* Payment records
+* Customer balances
+* Financial summaries
 
-2.[Create Your MongoDB Account and Database Cluster](INSTALLATION-INSTRUCTIONS.md#Step-2-Create-Your-MongoDB-Account-and-Database-Cluster)
+## 📊 Business Dashboard
 
-3.[Edit the Environment File](INSTALLATION-INSTRUCTIONS.md#Step-3-Edit-the-Environment-File)
+CloudLedger provides a centralized dashboard for monitoring important business activity, including:
 
-4.[Update MongoDB URI](INSTALLATION-INSTRUCTIONS.md#Step-4-Update-MongoDB-URI)
+* Sales
+* Revenue
+* Customers
+* Invoices
+* Payments
+* Products
+* Business activity
 
-5.[Install Backend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-5-Install-Backend-Dependencies)
+---
 
-6.[Run Setup Script](INSTALLATION-INSTRUCTIONS.md#Step-6-Run-Setup-Script)
+# 🏗️ Architecture
 
-7.[Run the Backend Server](INSTALLATION-INSTRUCTIONS.md#Step-7-Run-the-Backend-Server)
+CloudLedger follows a client-server architecture built around a RESTful API.
 
-8.[Install Frontend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-8-Install-Frontend-Dependencies)
+```text
+                         ┌──────────────────────┐
+                         │     CloudLedger      │
+                         │      Web Client      │
+                         │        React         │
+                         └──────────┬───────────┘
+                                    │
+                                    │ REST API
+                                    ▼
+                         ┌──────────────────────┐
+                         │      API Server      │
+                         │   Node.js / Express  │
+                         └──────────┬───────────┘
+                                    │
+                    ┌───────────────┴───────────────┐
+                    │                               │
+                    ▼                               ▼
+          ┌──────────────────┐           ┌──────────────────┐
+          │     MongoDB      │           │ Business Logic   │
+          │     Database     │           │    & Services    │
+          └──────────────────┘           └──────────────────┘
+```
 
-9.[Run the Frontend Server](INSTALLATION-INSTRUCTIONS.md#Step-9-Run-the-Frontend-Server)
+The frontend communicates with the backend through REST APIs.
 
-## Contributing
+The backend handles:
 
-1.[How to contribute](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#how-to-contribute)
+* Authentication
+* Authorization
+* Request validation
+* Business logic
+* Database operations
+* API responses
+* Error handling
 
-2.[Reporting issues](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#reporting-issues)
+---
 
-3.[Working on issues ](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#working-on-issues)
+# 🛠️ Technology Stack
 
-4.[Submitting pull requests](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#submitting-pull-requests)
+| Layer                    | Technology |
+| ------------------------ | ---------- |
+| Frontend                 | React.js   |
+| UI Framework             | Ant Design |
+| State Management         | Redux      |
+| Backend                  | Node.js    |
+| API Framework            | Express.js |
+| Database                 | MongoDB    |
+| Language                 | JavaScript |
+| API Architecture         | REST       |
+| Application Architecture | MERN       |
 
-5.[Commit Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#commit-guidelines)
+---
 
-6.[Coding Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#coding-guidelines)
+# 📁 Project Structure
 
-7.[Questions](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#questions)
+```text
+cloudledger/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── middleware/
+│   ├── helpers/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   ├── services/
+│   │   ├── routes/
+│   │   └── utils/
+│   │
+│   └── public/
+│
+├── docs/
+│
+├── .env.example
+├── docker-compose.yml
+└── README.md
+```
 
+---
 
-## Show your support
+# 🚀 Getting Started
 
-Dont forget to give a ⭐️ to this project ... Happy coding!
+## Prerequisites
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+Before running CloudLedger locally, make sure you have:
 
-## License
+* Node.js
+* npm
+* MongoDB
+* Git
 
-IDURAR is Free Open Source Released under the GNU Affero General Public License v3.0.
+---
 
-## Maintainers
+## 1. Clone the Repository
 
-See [MAINTAINERS.md](MAINTAINERS.md) for maintainer contact info, and [llms.txt](llms.txt) for a structured profile summary for AI agents.
+```bash
+git clone <your-repository-url>
+cd cloudledger
+```
 
-The main maintainer of this project is open to new opportunities — check out [my GitHub profile](https://github.com/salahlalami).
+---
+
+## 2. Configure Environment Variables
+
+Create your environment configuration:
+
+```bash
+cp .env.example .env
+```
+
+Configure the required environment variables.
+
+Example:
+
+```env
+NODE_ENV=development
+
+PORT=5000
+
+MONGO_URI=mongodb://localhost:27017/cloudledger
+
+JWT_SECRET=your-secret-key
+
+CLIENT_URL=http://localhost:3000
+```
+
+> Never commit production credentials or secrets to the repository.
+
+---
+
+# ⚙️ Backend Setup
+
+Navigate to the backend:
+
+```bash
+cd backend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The API will be available at:
+
+```text
+http://localhost:5000
+```
+
+---
+
+# 🎨 Frontend Setup
+
+Open another terminal and navigate to the frontend:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The application will be available at:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# 🔌 API
+
+CloudLedger exposes REST APIs for the major business domains.
+
+Example API resources:
+
+```text
+/api/auth
+/api/customers
+/api/products
+/api/invoices
+/api/payments
+/api/quotes
+/api/suppliers
+/api/inventory
+```
+
+The API layer provides the foundation for communication between the web application and business services.
+
+---
+
+# 🔐 Security
+
+CloudLedger uses environment-based configuration for sensitive application settings.
+
+Security considerations include:
+
+* Authentication
+* Authorization
+* Protected API routes
+* Environment-based secrets
+* Input validation
+* Secure database configuration
+
+Production deployments should use secure credentials, HTTPS, restricted database access, and appropriate secret-management solutions.
+
+---
+
+# 🐳 Docker
+
+CloudLedger can be run using Docker where supported by the project configuration.
+
+Build the application:
+
+```bash
+docker compose build
+```
+
+Start the services:
+
+```bash
+docker compose up
+```
+
+Stop the services:
+
+```bash
+docker compose down
+```
+
+---
+
+# 🧪 Testing
+
+Run the available tests using:
+
+```bash
+npm test
+```
+
+For frontend tests:
+
+```bash
+cd frontend
+npm test
+```
+
+Additional integration and end-to-end tests can be added as the platform evolves.
+
+---
+
+# 📈 Roadmap
+
+CloudLedger is intended to evolve into a more complete business management platform.
+
+### Platform
+
+* [ ] Improved authentication
+* [ ] Role-based access control
+* [ ] Multi-company support
+* [ ] Audit logging
+* [ ] Advanced permissions
+* [ ] API documentation
+
+### CRM
+
+* [ ] Customer activity timeline
+* [ ] Lead management
+* [ ] Sales pipeline
+* [ ] Customer segmentation
+
+### Accounting
+
+* [ ] Financial reports
+* [ ] Expense management
+* [ ] Tax configuration
+* [ ] Account reconciliation
+
+### Inventory
+
+* [ ] Stock alerts
+* [ ] Purchase orders
+* [ ] Warehouse management
+* [ ] Inventory movement history
+
+### Platform Engineering
+
+* [ ] Automated test coverage
+* [ ] CI/CD pipeline
+* [ ] Docker deployment
+* [ ] Cloud deployment
+* [ ] Application monitoring
+* [ ] Performance monitoring
+
+---
+
+# 🤝 Contributing
+
+Contributions and improvements are welcome.
+
+Before submitting a pull request:
+
+1. Create a feature branch.
+2. Implement your changes.
+3. Add or update tests where appropriate.
+4. Verify the application builds successfully.
+5. Update documentation when necessary.
+6. Submit a pull request describing your changes.
+
+---
+
+# 📸 Screenshots
+
+Screenshots and product demonstrations will be added as the platform evolves.
+
+Suggested screenshots:
+
+* Dashboard
+* Customer management
+* Invoice management
+* Quote management
+* Product management
+* Payment management
+* Reports
+
+---
+
+# 📄 License & Attribution
+
+CloudLedger is based on the open-source **IDURAR ERP/CRM** project.
+
+The original project is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+This repository retains the applicable license requirements and attribution from the upstream project.
+
+Please review the project's license and original attribution files before redistributing or deploying modified versions.
+
+---
+
+# 🌟 Project
+
+<div align="center">
+
+**CloudLedger**
+
+ERP · CRM · Accounting · Invoicing · Inventory
+
+Built with **React · Node.js · Express · MongoDB**
+
+</div>
